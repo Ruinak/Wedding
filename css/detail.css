@@ -1,0 +1,23 @@
+#detail {
+  /* 배경색 */
+  background-color: white;
+  /* 너비 */
+  width: 85%;
+  /* 글자 정렬 중앙*/
+  text-align: center;
+  /* 모서리 둥글게*/
+  border-radius: 10px;
+}
+
+#detp1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#detp2 {
+  font-size: 18px;
+  font-weight: 700;
+  /* border: 1px solid;
+  padding: 5px;
+  border-radius: 5px; */
+}

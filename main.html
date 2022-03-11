@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="ruinak" />
+    <meta name="keywords" content="Wedding Invitation" />
+    <meta name="description" content="Wedding Invitation" />
+    <title>Wedding Invitation</title>
+    <!-- 부트스트랩 link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!-- CSS 링크 -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/detail.css" />
+    <link rel="stylesheet" href="./css/default.css" />
+    <link rel="stylesheet" href="./css/end.css" />
+    <!-- 글씨 폰트 링크 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Main Page -->
+      <section id="main" class="mx-auto my-5 py-5 px-3">
+        <h1>Wedding Invitation</h1>
+        <div class="col-lg-6 col-md-8 col-sm-10 mx-auto">
+          <!-- img-fluid : 이미지가 상위 size를 따라감 -->
+          <img src="./img/hand.jpg" alt="mainImage" class="img-fluid" />
+        </div>
+        <br />
+        <h3>2022.03.23 수요일</h3>
+        <h1>- 김민수 ♡ 이유리 -</h1>
+        <h3>저희 결혼합니다</h3>
+        <hr />
+        <p id="mainp">
+          기억도 없는 어린시절 우리의 첫 만남<br />
+          우연과 인연으로 <br />20년 만의 재회를 한 우리<br />
+          평생을 함께하기로 약속하였습니다
+        </p>
+        <hr />
+        <button
+          type="button"
+          class="btn btn-outline-info mt-3"
+          onclick="js:begin()"
+        >
+          상세보기
+        </button>
+      </section>
+      <!-- Detail Page -->
+      <section id="detail" class="mx-auto my-5 py-5 px-3">
+        <p id="detp1">
+          김종채 & 박춘옥의 장남 김민수<br />
+          이재천 & 이미경의 장녀 이유리
+        </p>
+        <hr />
+        <p id="detp2">
+          책임감 강하고 배려심 넘치는 K-장남, 장녀가 만나 평생을 함께하기로<br />
+          약속합니다. <br /><br />고마운 분들을 모시고 기쁨을 나누는 것이
+          도리인줄 아오나 코로나 19 <br />확산으로 인해 긴 고민 끝에 <br />양가
+          직계 가족들과 예식을 <br />진행하게 되었습니다. <br /><br />참석하지
+          못하시더라고 축복해 주시는 마음 감사히 여기며 예쁘게 잘
+          <br />살겠습니다.
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-info mt-3"
+          onclick="js:back()"
+        >
+          이전보기
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-info mt-3"
+          onclick="js:next()"
+        >
+          이어보기
+        </button>
+      </section>
+      <!-- End Page -->
+      <section id="end" class="mx-auto my-5 py-5 px-3">
+        <h1>- 김민수 ♡ 이유리 -</h1>
+        <br /><br />
+        <h4>장소</h4>
+        <h5>
+          부산 해운대구 송정해변로 28 <br />
+          송정호텔 10층 디아모 웨딩홀
+        </h5>
+        <br />
+        <h4>
+          일시 : 2022년 03월 23일 (수)<br />
+          저녁 5시
+        </h4>
+        <br />
+        <h5>
+          마음 전하실 곳 <br />신랑측 : 국민 92440412749<br />
+          신부측 : 신한 <br />
+        </h5>
+
+        <hr />
+        <button
+          type="button"
+          class="btn btn-outline-info mt-3"
+          onclick="js:back()"
+        >
+          이전보기
+        </button>
+      </section>
+      <script>
+        detail.style.display = 'none';
+        end.style.display = 'none';
+      </script>
+      <script src="./js/start.js" charset="utf-8"></script>
+    </div>
+  </body>
+</html>

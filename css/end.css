@@ -1,0 +1,63 @@
+#end {
+  /* 배경색 */
+  background-color: white;
+  /* 너비 */
+  width: 85%;
+  /* 글자 정렬 중앙*/
+  text-align: center;
+  /* 모서리 둥글게*/
+  border-radius: 10px;
+}
+
+h1 {
+  font-weight: 800;
+}
+h4 {
+  font-weight: 800;
+}
+h5 {
+  font-weight: 700;
+}
+
+.resultDesc {
+  font-size: 20px;
+}
+
+.resultName {
+  font-size: 24px;
+}
+
+.kakao {
+  color: white;
+  background-color: #fee500;
+  font-size: 22px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.kakao:hover,
+.kakao:focus {
+  background-color: whitesmoke;
+  color: #fee500;
+}
+
+#shareResult {
+  background-color: white;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.gohome {
+  color: white;
+  background-color: paleturquoise;
+  font-size: 22px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.gohome:hover,
+.gohome:focus {
+  background-color: whitesmoke;
+  color: paleturquoise;
+}
